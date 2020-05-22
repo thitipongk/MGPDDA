@@ -3,12 +3,7 @@
 This repository contains the code and data sets of the Positive-Unlabeled learning method with Meta-path based functional profiles for Drug Repositioning (PUMDR). The folder "Demo" contains the code of PUMDR and the exemplified data. Another folder "Datasets" contains all original data sets used in our experiments.
 
 ## 1. Requirements
-The code is written in Python (version > 3.6). The following packages are required to run the code:
-- numpy (for matrix manipulation and computation)
-- pandas (for reading input files in the format of csv)
-- scipy (for manipulating sparse profile matrices)
-- sklearn (for computing Precision and Recall)
-- xgboost (for learning and predicting drug-disease pairs).
+The code is written in Python (version > 3.6). The packages that are required to run this code include numpy, pandas, scipy, sklearn, and xgboost.
 
 ## 2. Demo
 This folder contains the code of PUMDR (PUMDR-demo.py) and the exemplified data to demonstrate how PUMDR works.
