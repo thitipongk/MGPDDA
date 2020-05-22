@@ -2,12 +2,12 @@
 
 This repository contains the code and data sets of the Positive-Unlabeled learning method with Meta-path based functional profiles for Drug Repositioning (PUMDR). The folder "Demo" contains the code of PUMDR and the exemplified data. Another folder "Datasets" contains all original data sets used in our experiments.
 
-## 1. Requirements
+## Requirements
 The code is written in Python (version > 3.6). The packages that are required to run this code include numpy, pandas, scipy, sklearn, and xgboost.
 
-## 2. Demo
+## Demo
 This folder contains the code of PUMDR (PUMDR-demo.py) and the exemplified data to demonstrate how PUMDR works.
-### 2.1 PUMDR-demo code
+### PUMDR-demo code
 This code is for demonstrate how PUMDR works, composing of these following processes:
 1) Generation of meta-path based functional profiles 
 2) Dimensionality reduction of the functional profiles
@@ -15,7 +15,7 @@ This code is for demonstrate how PUMDR works, composing of these following proce
 
 Note that this code may not be suitable for our original data due to their too large size. Anyway, we also provided the exemplified data for this code to illustrate all processes of PUMDR.
 
-### 2.2 Datasets-demo
+### Datasets-demo
 In the exemplified data set, 100 drugs and 50 diseases were randomly selected from the original data. The total number of the associated GO functions is 4,669. The descriptions of all input data are shown as follows:
 1) "drug_list-demo.csv" : the list of 100 drugs (DrugBank ID)
 2) "disease_list-demo.csv" : the list of 50 diseases (OMIM ID)
@@ -25,7 +25,7 @@ In the exemplified data set, 100 drugs and 50 diseases were randomly selected fr
 6) "drug-disease_association_matrix-demo.txt" : the matrix of drug-disease associations (tab-delimited)
 Note that the orders of the data in the association matrices are arranged in the same orders of those in the listing files.
 
-## 3. Datasets
+## Datasets
 This folder contains the original data that we used in the experiments. These are quite large data, containing 1,022 drugs, 585 diseases, and 8,320 GO functions. We also provided the matrices of the pre-constructed functional profiles based on each meta-paths for the users who would like to reproduce our prediction results. The descriptions of the all data are shown as follows:
 1) "drug_list.csv" : the list of 1,022 drugs (DrugBank ID)
 2) "disease_list.csv" : the list of 585 diseases (OMIM ID)
@@ -40,4 +40,4 @@ This folder contains the original data that we used in the experiments. These ar
 
 Note that the files no.7 - 9 are the Python sparse matrices in the format of Compressed Sparse Row (CSR). We recommend to import the module "sparse" from the scipy package to read these files. Although these files have no row names, you can match each row of the functional profiles to each drug-disease pair in the file no.10. For the column names of the functional profiles, you can match each column to each function in the file no.3. The orders of the data in the association and profile matrices are arranged in the same orders of those in the listing files.
 
-## 4. Citation
+## Citation
