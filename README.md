@@ -43,6 +43,6 @@ This folder contains the original data that we used in the experiments. These ar
 9) "full_M3-based_functional_profiles.npz" : the full functional profiles based on the meta-path M<sub>3</sub> (no column and row names)
 10) "all_drug-disease_pairs.csv" : the list of all drug-disease pairs with their class labels, one is positive and zero is unlabeled.
 
-Note that the files no. 7 - 9 are the Python sparse matrices in the format of Compressed Sparse Row (CSR). We recommend to import the module "sparse" from the scipy package to read these files. Although these files have no row names, you can match each row of the functional profiles to each drug-disease pair in the file no.10. For the column names of the functional profiles, you can match each column to each function in the file no.3. The orders of the data in the association and profile matrices are arranged in the same orders of those in the listing files.
+Note that the files no.7 - 9 are the Python sparse matrices in the format of Compressed Sparse Row (CSR). We recommend to import the module "sparse" from the scipy package to read these files. Although these files have no row names, you can match each row of the functional profiles to each drug-disease pair in the file no.10. For the column names of the functional profiles, you can match each column to each function in the file no.3. The orders of the data in the association and profile matrices are arranged in the same orders of those in the listing files.
 
 ## 4. Citation
