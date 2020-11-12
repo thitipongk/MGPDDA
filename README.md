@@ -1,19 +1,19 @@
-# PUMDR
+# MGP-DDA
 
-This repository contains the code and data sets of the Positive-Unlabeled learning method with Meta-path based functional profiles for Drug Repositioning (PUMDR). The folder "Demo" contains the code of PUMDR and the exemplified data. Another folder "Datasets" contains all original data sets used in our experiments.
+This repository contains the code and data sets of the Meta-path based Gene ontology Profiles for predicting Drug-Disease Associations (MGP-DDA). The folder "Demo" contains the code of MGP-DDA and the exemplified data. Another folder "Datasets" contains all original data sets used in our experiments.
 
 ## Requirements
 The code is written in Python (version > 3.6). The packages that are required to run this code include numpy, pandas, scipy, sklearn, and xgboost.
 
 ## Demo
-This folder contains the code of PUMDR (PUMDR-demo.py) and the exemplified data to demonstrate how PUMDR works.
-### PUMDR-demo code
-This code is for demonstrate how PUMDR works, composing of these following processes:
-1) Generation of meta-path based functional profiles 
-2) Dimensionality reduction of the functional profiles
-3) Training the PUMDR model and predicting all unlabeled pairs to identify potential drug-disease associations. 
+This folder contains the code of MGP-DDA (MGPDDA-demo.py) and the exemplified data to demonstrate how MGP-DDA works.
+### MGPDDA-demo code
+This code is for demonstrate how MGP-DDA works, composing of these following processes:
+1) Generation of meta-path based gene ontology (GO) profiles 
+2) Dimensionality reduction of the meta-path based GO profiles
+3) Training the MGP-DDA model and predicting all unlabeled pairs to identify potential drug-disease associations. 
 
-Note that this code may not be suitable for our original data due to their too large size. Anyway, we also provided the exemplified data for this code to illustrate all processes of PUMDR.
+Note that this code may not be suitable for our original data due to their too large size. Anyway, we also provided the exemplified data for this code to illustrate all processes of MGP-DDA.
 
 ### Datasets-demo
 In the exemplified data set, 100 drugs and 50 diseases were randomly selected from the original data. The total number of the associated GO functions is 4,669. The descriptions of all input data are shown as follows:
@@ -26,7 +26,7 @@ In the exemplified data set, 100 drugs and 50 diseases were randomly selected fr
 Note that the orders of the data in the association matrices are arranged in the same orders of those in the listing files.
 
 ## Datasets
-This folder contains the original data that we used in the experiments. These are quite large data, containing 1,022 drugs, 585 diseases, and 8,320 GO functions. We also provided the matrices of the pre-constructed functional profiles based on each meta-paths for the users who would like to reproduce our prediction results. The descriptions of the all data are shown as follows:
+This folder contains the original data that we used in the experiments. These are quite large data, containing 1,022 drugs, 585 diseases, and 8,320 GO functions. We also provided the matrices of the pre-constructed GO profiles based on each meta-paths for the users who would like to reproduce our prediction results. The descriptions of the all data are shown as follows:
 1) "drug_list.csv" : the list of 1,022 drugs (DrugBank ID)
 2) "disease_list.csv" : the list of 585 diseases (OMIM ID)
 3) "function_list.csv" : the list of 8,320 GO functions (GO ID) with their aspects, including Cellular Component (C), Molecular Function (F), and Biological Process (P).
