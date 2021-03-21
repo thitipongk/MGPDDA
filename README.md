@@ -42,4 +42,5 @@ Note that the files no.7 - 9 are the Python sparse matrices in the format of Com
 
 ## Citation
 Please cite the data sets and codes as:
+
 T. Kawichai, A. Suratanee and K. Plaimas, "Meta-Path Based Gene Ontology Profiles for Predicting Drug-Disease Associations," in IEEE Access, vol. 9, pp. 41809-41820, 2021, doi: 10.1109/ACCESS.2021.3065280.
