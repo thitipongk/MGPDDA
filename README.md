@@ -41,3 +41,5 @@ This folder contains the original data that we used in the experiments. These ar
 Note that the files no.7 - 9 are the Python sparse matrices in the format of Compressed Sparse Row (CSR). We recommend to import the module "sparse" from the scipy package to read these files. Although these files have no row names, you can match each row of the functional profiles to each drug-disease pair in the file no.10. For the column names of the functional profiles, you can match each column to each function in the file no.3. The orders of the data in the association and profile matrices are arranged in the same orders of those in the listing files.
 
 ## Citation
+Please cite the data sets and codes as:
+T. Kawichai, A. Suratanee and K. Plaimas, "Meta-Path Based Gene Ontology Profiles for Predicting Drug-Disease Associations," in IEEE Access, vol. 9, pp. 41809-41820, 2021, doi: 10.1109/ACCESS.2021.3065280.
